@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "projeto5",
+    "slug": "projeto5",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/spla.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#202024"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#202024"
+      },
+      "package": "com.kingkel.projeto5"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3eb9d246-99c1-4835-ba97-e64c49ee11ea"
+      }
+    }
+  }
+}
